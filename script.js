@@ -74,8 +74,8 @@ function draw() {
     }
 }
 
-    console.log(song)
 function Play() {
+    song.stop()
     song.play();
     song.setVolume(1);
     song.rate(1);
